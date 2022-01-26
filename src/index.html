@@ -1,12 +1,42 @@
 <!DOCTYPE html>
 <html>
+  <body >
+  </body>
   <head>
     <meta charset="utf-8">
     <title>Tarjeta de crédito válida</title>
     <link rel="stylesheet" href="style.css" />
+    
   </head>
+
   <body>
-    <header></header>
+     
+    <h1>
+      <img class="img" src="imagenes/bremmi.png">
+      <img class="carrito" src="imagenes/carrito.png">
+      <img class="perfil" src="imagenes/perfil.png">
+      <img class="icono" src="imagenes/icono.png">
+    
+      
+    
+      <div class= "flexbox">
+      
+       <div id="inicio">¡Ya estás a un paso de adquirir tu compra!</div>
+      
+      
+    
+        <div id="mensaje">Ingresa el número de tu tarjeta de crédito </div>
+       
+        <input type="text" id="casilla1" oninput="this.value= this.value.replace(/[^0-9]/g,'');"/>    
+       
+        <button  id="numeroT">Comprar</button>
+      
+
+    
+         <div class="caja1 caja2 " id="resultado" ></div>
+    
+      </div>
+    </h1>
     <main></main>
     <footer></footer>
     <script src="index.js" type="module"></script>

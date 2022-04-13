@@ -8,7 +8,7 @@ const validator = {
      let reversaArray= array1.reverse();
      for(let i= 1; i < reversaArray.length; i+=2) {
         
-                reversaArray[i];
+               
                 
                 let multipicacion= reversaArray[i];
                 let resultadoMultiplicacion= multipicacion *2; 

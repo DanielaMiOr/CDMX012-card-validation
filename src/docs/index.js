@@ -18,7 +18,7 @@ function respuestaUsuario(isValid){
     let respuestaUsuario=document.getElementById("resultado");
     
     if (isValid==true){
-    respuestaUsuario.innerHTML="Tu tarjeta es válida"
+    respuestaUsuario.innerHTML="<marquee>Tu tarjeta es válida</marquee>"
     respuestaUsuario.classList.add("caja1");
     respuestaUsuario.classList.remove("caja2");
     
